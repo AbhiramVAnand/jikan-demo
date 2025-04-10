@@ -59,7 +59,13 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx.v270)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.hilt.android)
+    implementation(libs.androidx.hilt.navigation.compose)
     ksp(libs.hilt.compiler)
+    implementation(libs.androidx.paging)
+    implementation(libs.androidx.navigation)
+    implementation(libs.coil)
+    implementation(libs.androidx.exoplayer)
+    implementation(libs.androidx.media3.ui)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
